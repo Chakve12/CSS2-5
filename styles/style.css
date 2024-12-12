@@ -1,0 +1,1062 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header_container {
+    padding: 12px 32px;
+    background-color: #FBF9FF;
+
+}
+
+#header_logo {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 844px;
+    width: 100%;
+    padding: 13px;
+}
+
+#navigation_bar {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 905px;
+    width: 100%;
+}
+
+#navigation_bar a {
+    text-decoration: none;
+    color: #323232;
+    font-size: 18px;
+    font-family: Inter;
+}
+
+#navigation_bar ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#button_wrap {
+    border: 1px solid #6941C6;
+    padding: 8px 16px;
+    background-color: #6941C6;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT */
+
+#container {
+    width: 100%;
+    margin-top: 94px;
+}
+
+#main_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 32px;
+    background-color: #F1E8FF;
+    padding: 96px
+}
+
+#pricing_header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#pricing_plans {
+    max-width: 1248px;
+    width: 100%;
+}
+
+#pricing_header span {
+    display: block;
+}
+
+#pricing_title {
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    color: #181D27;
+    font-weight: 800;
+}
+
+#pricing_text {
+    color: #535862;
+    font-size: 24px;
+    font-family: Inter;
+}
+
+#options {
+    text-align: center;
+}
+
+/* basicplan */
+
+#basicplan {
+    display: inline-block;
+    margin-right: 32px;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+    background-color: #FFF;
+    padding: 0px 32px 40px 32px;
+    max-width: 373px;
+    width: 100%;
+}
+
+#basicplan_title {
+    color: #6941C6;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 14px;
+    border: 1px solid #E9D7FE;
+    background-color: #F9F5FF;
+    border-radius: 9999px;
+    padding: 4px 12px;
+
+}
+
+#basictitle_wrap {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#basicpricing_wrap {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#basicplan_pricing {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#basicplan_description {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#basicdescription_wrap {
+    text-align: center;
+}
+
+#getstarted_button {
+    text-align: center;
+    margin-top: 16px;
+}
+
+#gs_wrap {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    background-color: #7F56D9;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#chattosales_button {
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+#cts_wrap {
+    padding: 12px 18px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background-color: white;
+    color: #414651;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkcirlce {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.checkcirlce_desc {
+    vertical-align: middle;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#checkcircles {
+    text-align: left;
+}
+
+
+#checkcirlce1 {
+    margin-bottom: 16px;
+}
+
+#checkcirlce2 {
+    margin-bottom: 16px;
+}
+
+#checkcirlce3 {
+    margin-bottom: 16px;
+}
+
+#checkcirlce4 {
+    margin-bottom: 16px;
+}
+
+#section1 {
+    padding: 40px 32px 32px 32px;
+}
+
+#section2 {
+    border-top: 1px solid #535862;
+    padding-top: 33px;
+}
+
+/* businessplan */
+
+#businessplan {
+    display: inline-block;
+    margin-right: 32px;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+    background-color: #FFF;
+    padding: 0px 32px 40px 32px;
+    max-width: 373px;
+    width: 100%;
+}
+
+
+#businessplan_title {
+    color: #6941C6;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 14px;
+    border: 1px solid #E9D7FE;
+    background-color: #F9F5FF;
+    border-radius: 9999px;
+    padding: 4px 12px;
+}
+
+#businesstitle_wrap {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#businesspricing_wrap {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#businessplan_pricing {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#businessplan_description {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#businessdescription_wrap {
+    text-align: center;
+}
+
+#getstarted_button1 {
+    text-align: center;
+    margin-top: 16px;
+}
+
+#gs_wrap1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    background-color: #7F56D9;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#chattosales_button1 {
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+#cts_wrap1 {
+    padding: 12px 18px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background-color: white;
+    color: #414651;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkcirlce {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.checkcirlce_desc {
+    vertical-align: middle;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#Checkcircle6 {
+    margin-bottom: 16px;
+}
+
+#Checkcircle7 {
+    margin-bottom: 16px;
+}
+
+#Checkcircle8 {
+    margin-bottom: 16px;
+}
+
+#Checkcircle9 {
+    margin-bottom: 16px;
+}
+
+#section3 {
+    padding: 40px 32px 32px 32px;
+}
+
+#section4 {
+    padding-top: 33px;
+    border-top: 1px solid #535862;
+    text-align: left;
+}
+
+
+/* enterpriseplan */
+
+#enterpriseplan {
+    display: inline-block;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+    background-color: #FFF;
+    padding: 0px 32px 40px 32px;
+}
+
+#enterprisetitle_wrap {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#enterpriseplan_title {
+    color: #6941C6;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 14px;
+    border: 1px solid #E9D7FE;
+    background-color: #F9F5FF;
+    border-radius: 9999px;
+    padding: 4px 12px;
+}
+
+#enterprisepricing_wrap {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#enterpriseplan_pricing {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#enterpriseplan_description {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#enterprisedescription_wrap {
+    text-align: center;
+}
+
+#getstarted_button2 {
+    text-align: center;
+    margin-top: 16px;
+}
+
+#gs_wrap2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    background-color: #7F56D9;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#chattosales_button3 {
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+#cts_wrap2 {
+    padding: 12px 18px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background-color: white;
+    color: #414651;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkcirlce {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.checkcirlce_desc {
+    vertical-align: middle;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#Checkcircle10 {
+    margin-bottom: 16px;
+}
+
+#Checkcircle11 {
+    margin-bottom: 16px;
+}
+
+#Checkcircle12 {
+    margin-bottom: 16px;
+}
+
+#Checkcircle13 {
+    margin-bottom: 16px;
+}
+
+
+#section5 {
+    padding: 40px 32px 32px 32px;
+}
+
+#section6 {
+    padding-top: 33px;
+    border-top: 1px solid #535862;
+    text-align: left;
+}
+
+/* FAQ container */
+
+#FAQ_container {
+    margin-top: 32px;
+
+}
+
+#FAQ_header {
+    text-align: center;
+}
+
+#FAQtitle_wrap {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+#FAQdescription_wrap {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+#Logo_wrap {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 24px;
+}
+
+#freetrialtitle_wrap {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap span {
+    display: block;
+}
+
+#freetrial_container {
+    display: inline-block;
+}
+
+#FAQ_container1 {
+    margin-top: 32px;
+}
+
+#FAQ_main1 {
+    background-color: #E4E4E4;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#FAQ_container {
+    background-color: white;
+    border-radius: 24px;
+}
+
+#freetrialtitle_wrap {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#freetrialdescription_wrap {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#Logo_wrap1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 24px;
+}
+
+
+#freetrialdescription_wrap1 span {
+    display: block;
+}
+
+#freetrial_container1 {
+    display: inline-block;
+}
+
+#FAQ_container2 {
+    margin-top: 32px;
+}
+
+#FAQ_main2 {
+    background-color: #FFE5E5;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    max-width: 768px;
+    width: 100%;
+    margin-top: 16px;
+    border: 2px solid #FF2323;
+}
+
+#FAQ_container2 {
+    max-width: 763px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#freetrialtitle_wrap1 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap1 {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+/* section3 */
+
+#FAQ_main3 {
+    background-color: #E9D7FF;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    max-width: 768px;
+    width: 100%;
+    margin-top: 16px;
+
+}
+
+#Logo_wrap2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 24px;
+}
+
+#freetrial_container2 {
+    display: inline-block;
+}
+
+#freetrialtitle_wrap2 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap2 span {
+    display: block;
+}
+
+#freetrialdescription_wrap2 {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#FAQsection1 {
+    background-color: white;
+    max-width: 763px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+/* section4 */
+
+
+#FAQ_main4 {
+    background-color: #F7F4FF;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    max-width: 768px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+#Logo_wrap3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+}
+
+#freetrial_container3 {
+    display: inline-block;
+}
+
+#freetrialtitle_wrap3 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap3 span {
+    display: block;
+}
+
+#freetrialdescription_wrap3 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+
+}
+
+/* section5 */
+
+#FAQ_main5 {
+    background-color: #DCE6FF;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    max-width: 768px;
+    width: 100%;
+    margin-top: 16px;
+    border: 4px solid #326DFF;
+}
+
+#Logo_wrap4 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+}
+
+#freetrial_container4 {
+    display: inline-block;
+}
+
+#freetrialtitle_wrap4 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap4 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap4 span {
+    display: block;
+}
+
+
+/* FAQ5 */
+
+#FAQ_main6 {
+    background-color: #FFD5E7;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    max-width: 768px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+#Logo_wrap5 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+}
+
+#freetrial_container5 {
+    display: inline-block;
+}
+
+#freetrialtitle_wrap5 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap5 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#freetrialdescription_wrap5 span {
+    display: block;
+}
+
+/* review */
+
+#card1 {
+    padding: 32px;
+    margin-top: 64px;
+}
+
+#review_container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 64px;
+    padding: 32px 0px;
+}
+
+#review_content {
+    text-align: center;
+    padding: 0px 32px;
+}
+
+#review_title {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#review_description {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+#card1content span {
+    display: block;
+}
+
+#card1content {
+    border: 1px solid #E9EAEB;
+    padding: 32px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px;
+    max-width: 580px;
+    width: 100%;
+}
+
+#sienna {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 300px;
+}
+
+#logo3 {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#logo4 {
+    vertical-align: middle;
+}
+
+#logo5 {
+    vertical-align: middle;
+}
+
+#sienna1 {
+    display: inline-block;
+}
+
+#sienna_text {
+    color: #181D27;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+#sienna_logo {
+    display: inline-block;
+}
+
+/* card2  */
+
+#card2content {
+    border: 1px solid #E9EAEB;
+    padding: 32px;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+
+#card2 {
+    display: inline-block;
+    max-width: 580px;
+    width: 100%;
+}
+
+#olly_text {
+    color: #181D27;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+
+
+#logo6 {
+    vertical-align: middle;
+}
+
+#logo7 {
+    vertical-align: middle;
+}
+
+#olly {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 310px;
+}
+
+#olly_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#olly1 {
+    display: inline-block;
+}
+
+#olly_text span {
+    display: block;
+}
+
+#card2 {
+    margin-top: 24px;
+}
+
+/* card3 */
+
+#card3 {
+    /* margin-top: 24px; */
+    margin-left: 24px;
+    display: inline-block;
+    
+}
+
+#cait_text span {
+    display: block;
+}
+
+#cait1 {
+    display: inline-block;
+}
+
+#cait_logo {
+    display: inline-block;
+}
+
+#cait {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 297px;
+}
+
+#logo10 {
+    vertical-align: middle;
+}
+
+#logo9 {
+    vertical-align: middle;
+}
+
+#logo8 {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#cait_text {
+    color: #181D27;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 54px;
+}
+
+#card3content {
+    border: 1px solid #E9EAEB;
+    padding: 32px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px;
+    max-width: 580px;
+    width: 100%;
+}
+
+
+/* card4 */
+
+#card4content {
+    border: 1px solid #E9EAEB;
+    padding: 32px;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+
+#card4 {
+    display: inline-block;
+    max-width: 559px;
+    width: 100%;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+#rilley_text {
+    color: #181D27;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 102px;
+}
+
+
+
+#logo12 {
+    vertical-align: middle;
+}
+
+#logo13 {
+    vertical-align: middle;
+}
+
+#rilley {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 310px;
+}
+
+#rilley_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#rilley1 {
+    display: inline-block;
+}
+
+#rilley_text span {
+    display: block;
+}
